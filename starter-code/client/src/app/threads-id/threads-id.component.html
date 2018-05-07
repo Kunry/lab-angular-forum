@@ -1,0 +1,10 @@
+<div *ngIf="thread">
+
+  <h2>{{thread.title}}</h2>
+  <h4>Author: {{thread._author.username}}</h4>
+  <p>{{thread.content}}</p>
+
+
+</div>
+
+<a [routerLink]="['/home']">Back Home</a>
